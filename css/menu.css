@@ -55,7 +55,7 @@
 }
 
 .menu__link:hover {
-  background-color: #5e7094;
+  background-color: #99acd4;
 }
 
 .menu__arrow {
@@ -74,7 +74,7 @@
   bottom: 0;
   width: max-content;
   transform: translateY(100%);
-  background-color: #000;
+  background-color: #6489d3;
 }
 
 .menu__link--inside{
@@ -82,7 +82,7 @@
 }
 
 .menu__link--inside:hover{
-    background-color: #798499;
+    background-color: #99acd4;
 }
 
 .menu__hamburger{
@@ -113,7 +113,7 @@
 
     .menu__item--active{
         --transform: rotate(0);
-        --background: #5e7094;
+        --background: #99acd4;
     }
 
     .menu__item--show{
@@ -127,11 +127,12 @@
         top: 70px;
         bottom: 0;
         right: 0;
-        background-color: #000;
+        background-color: #6489d3;
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;
         transform: translateX(100%);
+        font-weight: 700;
     }
 
     .menu__links--show{
@@ -157,6 +158,7 @@
         transform: translateY(0);
         height: 0;
         transition: height .3s;
+        background-color: #3b5998;
     }
 
     .menu__link--inside{
